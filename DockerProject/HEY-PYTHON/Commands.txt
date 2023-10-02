@@ -1,0 +1,17 @@
+Convert docker file into docker image 
+->docker build -t shristisingh/hey-python-flask:0.0.1.RELEASE .
+
+Run image inside of a container
+->docker container run -d -p 3000:3000 shristisingh/hey-python-flask:0.0.1.RELEASE
+
+Run same image on different port
+->docker container run -d -p 4000:3000 shristisingh/hey-python-flask:0.0.1.RELEASE
+
+List all the conatiners
+->docker container ls
+
+Stop 1st container
+-> docker container stop 0389d(image id)
+
+Push on Docker hub Repositary 
+->docker push shristisingh/hey-python-flask:0.0.1.RELEASE
