@@ -1,2 +1,2 @@
 # Devops
-Python Project to learn Docker Basics
+Simple Projects to learn Docker Basics
